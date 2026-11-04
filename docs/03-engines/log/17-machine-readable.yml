@@ -1,0 +1,47 @@
+# DOC-054-S17 — بلوک ماشین‌خوان 🧠 (موتور log)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-054-S17 |
+| موتور | `log` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.log.v1
+engine:
+  id: tavaan.engine.log
+  namespace: Tavaan\Engine\Log\
+  path: engines/log
+  priority: P0
+  phase: M1
+  depends_on: [config]
+  soft_depends_on: []
+  facade: {name: Log, accessor: log}
+  tables: []
+  config_file: engines/log/config/log.php
+  loc_estimate: 1409
+  acceptance:
+    - {id: AC-LOG-01, test: 'php bin/tvn engines'}
+    - {id: AC-LOG-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

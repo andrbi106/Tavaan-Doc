@@ -1,0 +1,47 @@
+# DOC-039-S17 — بلوک ماشین‌خوان 🧠 (موتور console)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-039-S17 |
+| موتور | `console` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.console.v1
+engine:
+  id: tavaan.engine.console
+  namespace: Tavaan\Engine\Console\
+  path: engines/console
+  priority: P0
+  phase: M1
+  depends_on: [container, config]
+  soft_depends_on: []
+  facade: {name: , accessor: }
+  tables: []
+  config_file: engines/console/config/console.php
+  loc_estimate: 3559
+  acceptance:
+    - {id: AC-CONSOLE-01, test: 'php bin/tvn engines'}
+    - {id: AC-CONSOLE-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

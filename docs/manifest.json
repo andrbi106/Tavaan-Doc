@@ -10,8 +10,9 @@
   },
   "generated_note": "فهرست ماشین‌خوان مستندات Tavaan-Doc — بازنویسی بر اساس Tavaan-Demo واقعی",
   "totals": {
-    "documents": 76,
+    "documents": 908,
     "engines": 52,
+    "engine_audit_files": 936,
     "schemas": 1,
     "adrs": 2
   },

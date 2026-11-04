@@ -1,0 +1,47 @@
+# DOC-063-S17 — بلوک ماشین‌خوان 🧠 (موتور payment)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-063-S17 |
+| موتور | `payment` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.payment.v1
+engine:
+  id: tavaan.engine.payment
+  namespace: Tavaan\Engine\Payment\
+  path: engines/payment
+  priority: P2
+  phase: M7
+  depends_on: [config]
+  soft_depends_on: [http-client, database, migration, orm, event, crypt, http, console]
+  facade: {name: Payment, accessor: payment}
+  tables: [tvn_payment_transactions]
+  config_file: engines/payment/config/payment.php
+  loc_estimate: 2597
+  acceptance:
+    - {id: AC-PAYMENT-01, test: 'php bin/tvn engines'}
+    - {id: AC-PAYMENT-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

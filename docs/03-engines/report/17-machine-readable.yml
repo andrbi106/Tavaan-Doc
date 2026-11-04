@@ -1,0 +1,47 @@
+# DOC-069-S17 — بلوک ماشین‌خوان 🧠 (موتور report)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-069-S17 |
+| موتور | `report` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.report.v1
+engine:
+  id: tavaan.engine.report
+  namespace: Tavaan\Engine\Report\
+  path: engines/report
+  priority: P2
+  phase: M7
+  depends_on: [config]
+  soft_depends_on: [database, filesystem, view, i18n, compat, http]
+  facade: {name: Report, accessor: report}
+  tables: []
+  config_file: engines/report/config/report.php
+  loc_estimate: 2121
+  acceptance:
+    - {id: AC-REPORT-01, test: 'php bin/tvn engines'}
+    - {id: AC-REPORT-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

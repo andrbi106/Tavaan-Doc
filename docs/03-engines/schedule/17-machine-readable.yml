@@ -1,0 +1,47 @@
+# DOC-072-S17 — بلوک ماشین‌خوان 🧠 (موتور schedule)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-072-S17 |
+| موتور | `schedule` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.schedule.v1
+engine:
+  id: tavaan.engine.schedule
+  namespace: Tavaan\Engine\Schedule\
+  path: engines/schedule
+  priority: P1
+  phase: M5
+  depends_on: [config, console]
+  soft_depends_on: [cache, queue, log]
+  facade: {name: Schedule, accessor: schedule}
+  tables: []
+  config_file: engines/schedule/config/schedule.php
+  loc_estimate: 960
+  acceptance:
+    - {id: AC-SCHEDULE-01, test: 'php bin/tvn engines'}
+    - {id: AC-SCHEDULE-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

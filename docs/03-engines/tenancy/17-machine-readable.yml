@@ -1,0 +1,47 @@
+# DOC-077-S17 — بلوک ماشین‌خوان 🧠 (موتور tenancy)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-077-S17 |
+| موتور | `tenancy` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.tenancy.v1
+engine:
+  id: tavaan.engine.tenancy
+  namespace: Tavaan\Engine\Tenancy\
+  path: engines/tenancy
+  priority: P2
+  phase: M6
+  depends_on: [config]
+  soft_depends_on: []
+  facade: {name: Tenant, accessor: tenant}
+  tables: []
+  config_file: engines/tenancy/config/tenancy.php
+  loc_estimate: 3117
+  acceptance:
+    - {id: AC-TENANCY-01, test: 'php bin/tvn engines'}
+    - {id: AC-TENANCY-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

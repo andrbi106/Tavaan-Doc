@@ -1,0 +1,47 @@
+# DOC-073-S17 — بلوک ماشین‌خوان 🧠 (موتور schema)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-073-S17 |
+| موتور | `schema` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.schema.v1
+engine:
+  id: tavaan.engine.schema
+  namespace: Tavaan\Engine\Database\Schema\
+  path: engines/schema
+  priority: P0
+  phase: M3
+  depends_on: [database]
+  soft_depends_on: []
+  facade: {name: Schema, accessor: schema}
+  tables: []
+  config_file: engines/schema/config/schema.php
+  loc_estimate: 745
+  acceptance:
+    - {id: AC-SCHEMA-01, test: 'php bin/tvn engines'}
+    - {id: AC-SCHEMA-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

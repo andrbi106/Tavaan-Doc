@@ -1,0 +1,47 @@
+# DOC-081-S17 — بلوک ماشین‌خوان 🧠 (موتور view)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-081-S17 |
+| موتور | `view` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.view.v1
+engine:
+  id: tavaan.engine.view
+  namespace: Tavaan\Engine\View\
+  path: engines/view
+  priority: P0
+  phase: M2
+  depends_on: [event, i18n, config]
+  soft_depends_on: []
+  facade: {name: View, accessor: view}
+  tables: []
+  config_file: engines/view/config/view.php
+  loc_estimate: 897
+  acceptance:
+    - {id: AC-VIEW-01, test: 'php bin/tvn engines'}
+    - {id: AC-VIEW-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

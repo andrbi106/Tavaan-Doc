@@ -1,0 +1,47 @@
+# DOC-078-S17 — بلوک ماشین‌خوان 🧠 (موتور test)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-078-S17 |
+| موتور | `test` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.test.v1
+engine:
+  id: tavaan.engine.test
+  namespace: Tavaan\Testing\
+  path: engines/test
+  priority: P2
+  phase: M6
+  depends_on: []
+  soft_depends_on: []
+  facade: {name: , accessor: }
+  tables: []
+  config_file: engines/test/config/test.php
+  loc_estimate: 3635
+  acceptance:
+    - {id: AC-TEST-01, test: 'php bin/tvn engines'}
+    - {id: AC-TEST-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

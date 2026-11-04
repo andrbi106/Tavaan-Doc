@@ -1,0 +1,47 @@
+# DOC-076-S17 — بلوک ماشین‌خوان 🧠 (موتور session)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-076-S17 |
+| موتور | `session` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.session.v1
+engine:
+  id: tavaan.engine.session
+  namespace: Tavaan\Engine\Session\
+  path: engines/session
+  priority: P0
+  phase: M2
+  depends_on: [http, crypt, config]
+  soft_depends_on: [database, cache]
+  facade: {name: Session, accessor: session}
+  tables: [sessions]
+  config_file: engines/session/config/session.php
+  loc_estimate: 968
+  acceptance:
+    - {id: AC-SESSION-01, test: 'php bin/tvn engines'}
+    - {id: AC-SESSION-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

@@ -1,0 +1,47 @@
+# DOC-075-S17 — بلوک ماشین‌خوان 🧠 (موتور security)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-075-S17 |
+| موتور | `security` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.security.v1
+engine:
+  id: tavaan.engine.security
+  namespace: Tavaan\Engine\Security\
+  path: engines/security
+  priority: P0
+  phase: M4
+  depends_on: [http, crypt, cache, config]
+  soft_depends_on: [session, router]
+  facade: {name: Security, accessor: security}
+  tables: []
+  config_file: engines/security/config/security.php
+  loc_estimate: 1054
+  acceptance:
+    - {id: AC-SECURITY-01, test: 'php bin/tvn engines'}
+    - {id: AC-SECURITY-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

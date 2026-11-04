@@ -1,0 +1,47 @@
+# DOC-051-S17 — بلوک ماشین‌خوان 🧠 (موتور http-client)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-051-S17 |
+| موتور | `http-client` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.http-client.v1
+engine:
+  id: tavaan.engine.http-client
+  namespace: Tavaan\Engine\HttpClient\
+  path: engines/http-client
+  priority: P1
+  phase: M5
+  depends_on: [config, event]
+  soft_depends_on: []
+  facade: {name: Http, accessor: http}
+  tables: []
+  config_file: engines/http-client/config/http-client.php
+  loc_estimate: 1807
+  acceptance:
+    - {id: AC-HTTP_CLIENT-01, test: 'php bin/tvn engines'}
+    - {id: AC-HTTP_CLIENT-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

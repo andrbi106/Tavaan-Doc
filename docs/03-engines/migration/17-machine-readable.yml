@@ -1,0 +1,47 @@
+# DOC-057-S17 — بلوک ماشین‌خوان 🧠 (موتور migration)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-057-S17 |
+| موتور | `migration` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.migration.v1
+engine:
+  id: tavaan.engine.migration
+  namespace: Tavaan\Engine\Database\Migration\
+  path: engines/migration
+  priority: P0
+  phase: M3
+  depends_on: [database, schema, console]
+  soft_depends_on: []
+  facade: {name: , accessor: }
+  tables: [tvn_migrations]
+  config_file: engines/migration/config/migration.php
+  loc_estimate: 445
+  acceptance:
+    - {id: AC-MIGRATION-01, test: 'php bin/tvn engines'}
+    - {id: AC-MIGRATION-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

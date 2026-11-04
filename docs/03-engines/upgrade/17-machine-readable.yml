@@ -1,0 +1,47 @@
+# DOC-079-S17 — بلوک ماشین‌خوان 🧠 (موتور upgrade)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-079-S17 |
+| موتور | `upgrade` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.upgrade.v1
+engine:
+  id: tavaan.engine.upgrade
+  namespace: Tavaan\Engine\Upgrade\
+  path: engines/upgrade
+  priority: P2
+  phase: M8
+  depends_on: [console, database, filesystem]
+  soft_depends_on: []
+  facade: {name: , accessor: }
+  tables: []
+  config_file: engines/upgrade/config/upgrade.php
+  loc_estimate: 1408
+  acceptance:
+    - {id: AC-UPGRADE-01, test: 'php bin/tvn engines'}
+    - {id: AC-UPGRADE-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

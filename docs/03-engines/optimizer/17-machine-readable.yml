@@ -1,0 +1,47 @@
+# DOC-061-S17 — بلوک ماشین‌خوان 🧠 (موتور optimizer)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-061-S17 |
+| موتور | `optimizer` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.optimizer.v1
+engine:
+  id: tavaan.engine.optimizer
+  namespace: Tavaan\Engine\Optimizer\
+  path: engines/optimizer
+  priority: P0
+  phase: M1
+  depends_on: [config, console]
+  soft_depends_on: []
+  facade: {name: , accessor: }
+  tables: []
+  config_file: engines/optimizer/config/optimizer.php
+  loc_estimate: 397
+  acceptance:
+    - {id: AC-OPTIMIZER-01, test: 'php bin/tvn engines'}
+    - {id: AC-OPTIMIZER-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

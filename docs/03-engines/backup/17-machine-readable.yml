@@ -1,0 +1,47 @@
+# DOC-035-S17 — بلوک ماشین‌خوان 🧠 (موتور backup)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-035-S17 |
+| موتور | `backup` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.backup.v1
+engine:
+  id: tavaan.engine.backup
+  namespace: Tavaan\Engine\Backup\
+  path: engines/backup
+  priority: P1
+  phase: M5
+  depends_on: [config, filesystem]
+  soft_depends_on: [database, crypt, cache, compat]
+  facade: {name: Backup, accessor: backup}
+  tables: []
+  config_file: engines/backup/config/backup.php
+  loc_estimate: 1388
+  acceptance:
+    - {id: AC-BACKUP-01, test: 'php bin/tvn engines'}
+    - {id: AC-BACKUP-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

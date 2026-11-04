@@ -1,0 +1,47 @@
+# DOC-082-S17 — بلوک ماشین‌خوان 🧠 (موتور workflow)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-082-S17 |
+| موتور | `workflow` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.workflow.v1
+engine:
+  id: tavaan.engine.workflow
+  namespace: Tavaan\Engine\Workflow\
+  path: engines/workflow
+  priority: P2
+  phase: M7
+  depends_on: [config]
+  soft_depends_on: [event, database, migration, rbac, queue, console, auth]
+  facade: {name: Workflow, accessor: workflow}
+  tables: [tvn_workflows, tvn_process_instances, tvn_process_tasks, tvn_process_history]
+  config_file: engines/workflow/config/workflow.php
+  loc_estimate: 2688
+  acceptance:
+    - {id: AC-WORKFLOW-01, test: 'php bin/tvn engines'}
+    - {id: AC-WORKFLOW-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

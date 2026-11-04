@@ -1,0 +1,47 @@
+# DOC-049-S17 — بلوک ماشین‌خوان 🧠 (موتور hash)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-049-S17 |
+| موتور | `hash` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.hash.v1
+engine:
+  id: tavaan.engine.hash
+  namespace: Tavaan\Engine\Hash\
+  path: engines/hash
+  priority: P0
+  phase: M4
+  depends_on: [config]
+  soft_depends_on: []
+  facade: {name: Hash, accessor: hash}
+  tables: []
+  config_file: engines/hash/config/hash.php
+  loc_estimate: 355
+  acceptance:
+    - {id: AC-HASH-01, test: 'php bin/tvn engines'}
+    - {id: AC-HASH-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

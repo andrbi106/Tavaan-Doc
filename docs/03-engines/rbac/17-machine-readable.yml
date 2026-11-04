@@ -1,0 +1,47 @@
+# DOC-067-S17 — بلوک ماشین‌خوان 🧠 (موتور rbac)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-067-S17 |
+| موتور | `rbac` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.rbac.v1
+engine:
+  id: tavaan.engine.rbac
+  namespace: Tavaan\Engine\Rbac\
+  path: engines/rbac
+  priority: P0
+  phase: M4
+  depends_on: [auth, database, cache, event, config]
+  soft_depends_on: []
+  facade: {name: Gate, accessor: gate}
+  tables: [tvn_permissions, tvn_roles, tvn_role_user, tvn_permission_role, tvn_delegations]
+  config_file: engines/rbac/config/rbac.php
+  loc_estimate: 1242
+  acceptance:
+    - {id: AC-RBAC-01, test: 'php bin/tvn engines'}
+    - {id: AC-RBAC-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

@@ -1,0 +1,47 @@
+# DOC-066-S17 — بلوک ماشین‌خوان 🧠 (موتور queue)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-066-S17 |
+| موتور | `queue` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.queue.v1
+engine:
+  id: tavaan.engine.queue
+  namespace: Tavaan\Engine\Queue\
+  path: engines/queue
+  priority: P1
+  phase: M5
+  depends_on: [config, event]
+  soft_depends_on: [database, cache, log]
+  facade: {name: Queue, accessor: queue}
+  tables: [tvn_jobs, tvn_failed_jobs, tvn_job_batches]
+  config_file: engines/queue/config/queue.php
+  loc_estimate: 4555
+  acceptance:
+    - {id: AC-QUEUE-01, test: 'php bin/tvn engines'}
+    - {id: AC-QUEUE-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

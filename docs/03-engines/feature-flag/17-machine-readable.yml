@@ -1,0 +1,47 @@
+# DOC-047-S17 — بلوک ماشین‌خوان 🧠 (موتور feature-flag)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-047-S17 |
+| موتور | `feature-flag` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.feature-flag.v1
+engine:
+  id: tavaan.engine.feature-flag
+  namespace: Tavaan\Engine\FeatureFlag\
+  path: engines/feature-flag
+  priority: P2
+  phase: M7
+  depends_on: [config]
+  soft_depends_on: [cache, database, rbac, tenancy]
+  facade: {name: Feature, accessor: feature}
+  tables: []
+  config_file: engines/feature-flag/config/feature-flag.php
+  loc_estimate: 499
+  acceptance:
+    - {id: AC-FEATURE_FLAG-01, test: 'php bin/tvn engines'}
+    - {id: AC-FEATURE_FLAG-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

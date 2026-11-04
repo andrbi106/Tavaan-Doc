@@ -1,0 +1,47 @@
+# DOC-052-S17 — بلوک ماشین‌خوان 🧠 (موتور i18n)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-052-S17 |
+| موتور | `i18n` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.i18n.v1
+engine:
+  id: tavaan.engine.i18n
+  namespace: Tavaan\Engine\I18n\
+  path: engines/i18n
+  priority: P0
+  phase: M2
+  depends_on: [config]
+  soft_depends_on: []
+  facade: {name: Lang, accessor: translator}
+  tables: []
+  config_file: engines/i18n/config/i18n.php
+  loc_estimate: 1227
+  acceptance:
+    - {id: AC-I18N-01, test: 'php bin/tvn engines'}
+    - {id: AC-I18N-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |

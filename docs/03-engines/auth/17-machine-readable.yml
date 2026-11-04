@@ -1,0 +1,47 @@
+# DOC-034-S17 — بلوک ماشین‌خوان 🧠 (موتور auth)
+
+| متادیتا | مقدار |
+|---|---|
+| DOC-ID | DOC-034-S17 |
+| موتور | `auth` |
+| بخش | ۱۷ — بلوک ماشین‌خوان 🧠 |
+| وضعیت | Draft v0.0.1 |
+| نوع | فایل ماشین‌خوان (YAML) |
+
+## محتوای YAML
+
+```yaml
+# machine-readable: tavaan.engine.auth.v1
+engine:
+  id: tavaan.engine.auth
+  namespace: Tavaan\Engine\Auth\
+  path: engines/auth
+  priority: P0
+  phase: M4
+  depends_on: [session, hash, crypt, event, database, cache, config]
+  soft_depends_on: [http, orm, notification]
+  facade: {name: Auth, accessor: auth}
+  tables: [password_resets, personal_access_tokens, user_devices, two_factor_secrets]
+  config_file: engines/auth/config/auth.php
+  loc_estimate: 2430
+  acceptance:
+    - {id: AC-AUTH-01, test: 'php bin/tvn engines'}
+    - {id: AC-AUTH-02, test: 'php bin/tvn engines --list'}
+```
+
+## چک‌لیست ممیزی عملیاتی
+- [ ] بلوک YAML موجود است
+- [ ] id معتبر (tavaan.engine.<name>)
+- [ ] namespace صحیح
+- [ ] depends_on فهرست شده
+- [ ] acceptance با AC- ارجاع داده شده
+- [ ] loc_estimate عددی
+
+## وضعیت ممیزی
+| شاخص | وضعیت |
+|---|---|
+| بلوک YAML موجود؟ | ✅ |
+| id معتبر؟ | ✅ |
+| namespace صحیح؟ | ✅ |
+| depends_on فهرست شده؟ | ✅ |
+| acceptance با AC-؟ | ✅ |
