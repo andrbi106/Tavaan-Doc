@@ -114,20 +114,45 @@ R10 قبل از Merge: php -l + PHPStan + تست‌ها + Benchmark.
 
 ---
 
-## وضعیت فاز
+## وضعیت فاز (۲۶ فاز تفکیک‌شده M0-M25)
 
-| فاز | محتوا | وضعیت Tavaan-Demo |
-|---|---|---|
-| M0 | تحلیل، معماری، مستندات | ✅ این مخزن |
-| M1 | هستهٔ صفر‌وابستگی | ✅ تکمیل (container, config, event, ...) |
-| M2 | موتور HTTP + Router + View | ⬜ اسکلت (کلاس‌ها موجود، پیاده‌سازی ناقص) |
-| M3 | دیتابیس + ORM + Migration | ⬜ اسکلت |
-| M4 | Auth/RBAC/Validation/Cache/Log | ⬜ اسکلت |
-| M5 | Queue/Schedule/Mail/Notification | ⬜ اسکلت |
-| M6 | API/Observability/Search/Workflow | ⬜ اسکلت |
-| M7 | اپلیکیشن‌های پایه | ⬜ |
-| M8 | اپلیکیشن‌های حرفه‌ای | ⬜ |
-| M9 | ابزارها، Scaffold، Admin، Release 1.0 | ⬜ |
+برای جلوگیری از کد اسپاگتی و هماهنگی بهتر، فازها از ۱۰ به **۲۶** افزایش یافتند.
+جزئیات کامل در `docs/08-roadmap/milestones.md`.
+
+| فاز | نام | موتورها | وضعیت |
+|---|---|---|---|
+| **M0** | مستندات و معماری | — | ✅ کامل |
+| **M1** | هستهٔ بنیاد | container, compat | ✅ کامل |
+| **M2** | هستهٔ پیکربندی | config, pipeline, module | ✅ کامل |
+| **M3** | هستهٔ رویداد | event, console, log, error | ✅ کامل |
+| **M4** | هستهٔ پشتیبان | crypt, hash, filesystem, i18n, optimizer | ✅ کامل |
+| **M5** | موتور والد | engine-core | ✅ کامل |
+| **M6** | HTTP بنیاد | http | ⚠️ اسکلت |
+| **M7** | مسیریابی | router | ⚠️ اسکلت |
+| **M8** | وب پشتیبان | session, cookie, cors | ⚠️ اسکلت |
+| **M9** | نما و i18n | view, jalali | ⚠️ اسکلت |
+| **M10** | دیتابیس | database | ⚠️ اسکلت |
+| **M11** | طرح و مهاجرت | schema, migration | ⚠️ اسکلت |
+| **M12** | ORM | orm | ⚠️ اسکلت |
+| **M13** | اعتبارسنجی و جستجو | validation, search | ⚠️ اسکلت |
+| **M14** | کش و صف | cache, queue, schedule | ⚠️ اسکلت |
+| **M15** | احراز هویت | auth | ⚠️ اسکلت |
+| **M16** | RBAC و امنیت | rbac, security, audit | ⚠️ اسکلت |
+| **M17** | نامه و اطلاع‌رسانی | mail, notification | ⚠️ اسکلت |
+| **M18** | رسانه و HTTP-Client | media, http-client | ⚠️ اسکلت |
+| **M19** | رصدپذیری و پشتیبان | observability, backup | ⚠️ اسکلت |
+| **M20** | چنداجاره‌ای و پرچم | tenancy, feature-flag | ⚠️ اسکلت |
+| **M21** | API و Realtime | api, realtime | ⚠️ اسکلت |
+| **M22** | دامنه | workflow, report, payment | ⚠️ اسکلت |
+| **M23** | ابزارسازی | scaffold, admin, plugin | ⚠️ اسکلت |
+| **M24** | QA و ارتقا | test, upgrade | ⚠️ اسکلت |
+| **M25** | اپلیکیشن‌ها و انتشار | Blog/Shop/ERP/... | ⬜ آینده |
+
+**مستندات مرتبط:**
+- `docs/08-roadmap/milestones.md` — جدول کامل فازها
+- `docs/08-roadmap/phase-audit.md` — ممیزی فایل‌های هر فاز
+- `docs/08-roadmap/phase-dependencies.md` — گراف وابستگی + قواعد هماهنگی
+- `docs/08-roadmap/agent-backlog.md` — بک‌لاگ تیکت‌های ایجنت
 
 ---
 

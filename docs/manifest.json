@@ -10,7 +10,7 @@
   },
   "generated_note": "فهرست ماشین‌خوان مستندات Tavaan-Doc — بازنویسی بر اساس Tavaan-Demo واقعی",
   "totals": {
-    "documents": 70,
+    "documents": 75,
     "engines": 52,
     "schemas": 1,
     "adrs": 2
@@ -96,7 +96,12 @@
     {"section": "04-structure", "doc_id": "DOC-080", "title": "ساختار پوشه", "path": "docs/04-structure/folder-structure.md", "machine_readable": false},
     {"section": "04-structure", "doc_id": "DOC-083", "title": "مرجع CLI", "path": "docs/04-structure/cli-reference.md", "machine_readable": false},
     {"section": "07-quality", "doc_id": "DOC-AUDIT", "title": "گزارش ممیزی", "path": "docs/07-quality/audit-report.md", "machine_readable": false},
-    {"section": "08-roadmap", "doc_id": "DOC-120", "title": "نقشهٔ راه", "path": "docs/08-roadmap/milestones.md", "machine_readable": false},
+    {"section": "08-roadmap", "doc_id": "DOC-120", "title": "نقشهٔ راه (۲۶ فاز)", "path": "docs/08-roadmap/milestones.md", "machine_readable": false},
+    {"section": "08-roadmap", "doc_id": "DOC-121", "title": "ممیزی فاز-به-فاز", "path": "docs/08-roadmap/phase-audit.md", "machine_readable": false},
+    {"section": "08-roadmap", "doc_id": "DOC-122", "title": "وابستگی‌های فاز", "path": "docs/08-roadmap/phase-dependencies.md", "machine_readable": false},
+    {"section": "08-roadmap", "doc_id": "DOC-123", "title": "بک‌لاگ ایجنت", "path": "docs/08-roadmap/agent-backlog.md", "machine_readable": true},
+    {"section": "08-roadmap", "doc_id": "DOC-124", "title": "خلاصهٔ فازهای بنیاد", "path": "docs/08-roadmap/foundation-phases.md", "machine_readable": false},
+    {"section": "08-roadmap", "doc_id": "DOC-125", "title": "خلاصهٔ فازهای اجرایی", "path": "docs/08-roadmap/execution-phases.md", "machine_readable": false},
     {"section": "09-references", "doc_id": "DOC-131", "title": "واژه‌نامه", "path": "docs/09-references/glossary.md", "machine_readable": false},
     {"section": "adr", "doc_id": "DOC-140", "title": "شاخص ADR", "path": "docs/adr/README.md", "machine_readable": false},
     {"section": "adr", "doc_id": "ADR-0004", "title": "صفر وابستگی", "path": "docs/adr/ADR-0004-zero-dependency.md", "machine_readable": false},
