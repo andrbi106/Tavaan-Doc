@@ -1,0 +1,18 @@
+# Tavaan-Doc — gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary
+/tmp/
+*.tmp
