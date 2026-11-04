@@ -10,7 +10,7 @@
   },
   "generated_note": "فهرست ماشین‌خوان مستندات Tavaan-Doc — بازنویسی بر اساس Tavaan-Demo واقعی",
   "totals": {
-    "documents": 75,
+    "documents": 76,
     "engines": 52,
     "schemas": 1,
     "adrs": 2
@@ -102,6 +102,7 @@
     {"section": "08-roadmap", "doc_id": "DOC-123", "title": "بک‌لاگ ایجنت", "path": "docs/08-roadmap/agent-backlog.md", "machine_readable": true},
     {"section": "08-roadmap", "doc_id": "DOC-124", "title": "خلاصهٔ فازهای بنیاد", "path": "docs/08-roadmap/foundation-phases.md", "machine_readable": false},
     {"section": "08-roadmap", "doc_id": "DOC-125", "title": "خلاصهٔ فازهای اجرایی", "path": "docs/08-roadmap/execution-phases.md", "machine_readable": false},
+    {"section": "08-roadmap", "doc_id": "DOC-126", "title": "قواعد نسخه‌گذاری", "path": "docs/08-roadmap/version-progression.md", "machine_readable": true},
     {"section": "09-references", "doc_id": "DOC-131", "title": "واژه‌نامه", "path": "docs/09-references/glossary.md", "machine_readable": false},
     {"section": "adr", "doc_id": "DOC-140", "title": "شاخص ADR", "path": "docs/adr/README.md", "machine_readable": false},
     {"section": "adr", "doc_id": "ADR-0004", "title": "صفر وابستگی", "path": "docs/adr/ADR-0004-zero-dependency.md", "machine_readable": false},

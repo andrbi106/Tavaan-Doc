@@ -50,10 +50,13 @@
 | DOC-085 | مرجع پیکربندی | `docs/04-structure/config-reference.md` | مرجع 🔒 |
 | DOC-110 | استراتژی تست | `docs/07-quality/testing-strategy.md` | استاندارد 🔒 |
 | DOC-113 | تعریف انجام‌شده | `docs/07-quality/definition-of-done.md` | استاندارد 🔒 |
-| DOC-120 | نقشهٔ راه (۲۶ فاز) | `docs/08-roadmap/milestones.md` | برنامه |
+| DOC-120 | نقشهٔ راه (۴۵ فاز، M0-M44) | `docs/08-roadmap/milestones.md` | برنامه |
 | DOC-121 | ممیزی فاز-به-فاز | `docs/08-roadmap/phase-audit.md` | مرجع 🧪 |
 | DOC-122 | وابستگی‌های فاز | `docs/08-roadmap/phase-dependencies.md` | معماری 🔒 |
 | DOC-123 | بک‌لاگ ایجنت | `docs/08-roadmap/agent-backlog.md` | برنامه 🧠 |
+| DOC-124 | خلاصهٔ فازهای بنیاد | `docs/08-roadmap/foundation-phases.md` | مرجع |
+| DOC-125 | خلاصهٔ فازهای اجرایی | `docs/08-roadmap/execution-phases.md` | مرجع |
+| DOC-126 | قواعد نسخه‌گذاری | `docs/08-roadmap/version-progression.md` | استاندارد 🔒 |
 | DOC-131 | واژه‌نامه | `docs/09-references/glossary.md` | مرجع |
 | DOC-140 | شاخص ADR | `docs/adr/README.md` | تصمیم 🔒 |
 | DOC-150 | قالب مستند موتور | `docs/templates/engine-spec-template.md` | قالب |

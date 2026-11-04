@@ -114,43 +114,33 @@ R10 قبل از Merge: php -l + PHPStan + تست‌ها + Benchmark.
 
 ---
 
-## وضعیت فاز (۲۶ فاز تفکیک‌شده M0-M25)
+## وضعیت فاز (۴۵ فاز، M0-M44، نسخه 0.0.0 تا 1.0.0)
 
-برای جلوگیری از کد اسپاگتی و هماهنگی بهتر، فازها از ۱۰ به **۲۶** افزایش یافتند.
-جزئیات کامل در `docs/08-roadmap/milestones.md`.
+فازها بر اساس **لایه‌بندی موتورها** در `DEPENDENCIES.md` طراحی شده‌اند.
+هر لایه با نسخه همسو است: L0→0.0.x, L1→0.1.x, ..., Release→1.0.0.
+قواعد نسخه‌گذاری در `docs/08-roadmap/version-progression.md`.
 
-| فاز | نام | موتورها | وضعیت |
-|---|---|---|---|
-| **M0** | مستندات و معماری | — | ✅ کامل |
-| **M1** | هستهٔ بنیاد | container, compat | ✅ کامل |
-| **M2** | هستهٔ پیکربندی | config, pipeline, module | ✅ کامل |
-| **M3** | هستهٔ رویداد | event, console, log, error | ✅ کامل |
-| **M4** | هستهٔ پشتیبان | crypt, hash, filesystem, i18n, optimizer | ✅ کامل |
-| **M5** | موتور والد | engine-core | ✅ کامل |
-| **M6** | HTTP بنیاد | http | ⚠️ اسکلت |
-| **M7** | مسیریابی | router | ⚠️ اسکلت |
-| **M8** | وب پشتیبان | session, cookie, cors | ⚠️ اسکلت |
-| **M9** | نما و i18n | view, jalali | ⚠️ اسکلت |
-| **M10** | دیتابیس | database | ⚠️ اسکلت |
-| **M11** | طرح و مهاجرت | schema, migration | ⚠️ اسکلت |
-| **M12** | ORM | orm | ⚠️ اسکلت |
-| **M13** | اعتبارسنجی و جستجو | validation, search | ⚠️ اسکلت |
-| **M14** | کش و صف | cache, queue, schedule | ⚠️ اسکلت |
-| **M15** | احراز هویت | auth | ⚠️ اسکلت |
-| **M16** | RBAC و امنیت | rbac, security, audit | ⚠️ اسکلت |
-| **M17** | نامه و اطلاع‌رسانی | mail, notification | ⚠️ اسکلت |
-| **M18** | رسانه و HTTP-Client | media, http-client | ⚠️ اسکلت |
-| **M19** | رصدپذیری و پشتیبان | observability, backup | ⚠️ اسکلت |
-| **M20** | چنداجاره‌ای و پرچم | tenancy, feature-flag | ⚠️ اسکلت |
-| **M21** | API و Realtime | api, realtime | ⚠️ اسکلت |
-| **M22** | دامنه | workflow, report, payment | ⚠️ اسکلت |
-| **M23** | ابزارسازی | scaffold, admin, plugin | ⚠️ اسکلت |
-| **M24** | QA و ارتقا | test, upgrade | ⚠️ اسکلت |
-| **M25** | اپلیکیشن‌ها و انتشار | Blog/Shop/ERP/... | ⬜ آینده |
+| فاز | لایه | نسخه | موتورها | وضعیت |
+|---|---|---|---|---|
+| **M0** | — | 0.0.0 | مستندات | ✅ |
+| **M1-M2** | L0 | 0.0.1-0.0.2 | container, compat, test | ✅ |
+| **M3** | L1 | 0.1.1 | config, pipeline | ✅ |
+| **M4-M10** | L2 | 0.2.1-0.2.7 | event, crypt, hash, filesystem, i18n, log, cache, console, module, ... | ✅ |
+| **M11-M17** | L3 | 0.3.1-0.3.7 | database, error, http, view, validation, jalali, queue, mail, ... | ⚠️ اسکلت |
+| **M18-M25** | L4 | 0.4.1-0.4.8 | orm, schema, migration, cookie, cors, session, router, ... | ⚠️ اسکلت |
+| **M26-M29** | L5 | 0.5.1-0.5.4 | auth, rbac, security, realtime | ⚠️ اسکلت |
+| **M30-M32** | L6 | 0.6.1-0.6.3 | api, workflow, admin | ⚠️ اسکلت |
+| **M33-M35** | App | 0.7.1-0.7.3 | Blog, News-Portal, Forum | ⬜ |
+| **M36-M38** | App | 0.8.1-0.8.3 | Shop (۲ فاز), LMS | ⬜ |
+| **M39-M43** | App | 0.9.1-0.9.5 | CRM, ERP (۲ فاز), BPMS (۲ فاز) | ⬜ |
+| **M44** | Release | 1.0.0 | انتشار فریمورک | ⬜ |
+
+**نسخهٔ فعلی Tavaan-Demo:** `0.2.7` (L2 کامل، اسکلت L3-L6 موجود)
 
 **مستندات مرتبط:**
-- `docs/08-roadmap/milestones.md` — جدول کامل فازها
-- `docs/08-roadmap/phase-audit.md` — ممیزی فایل‌های هر فاز
+- `docs/08-roadmap/version-progression.md` — قواعد نسخه‌گذاری و همسویی با لایه‌ها
+- `docs/08-roadmap/milestones.md` — جدول کامل ۴۵ فاز
+- `docs/08-roadmap/phase-audit.md` — ممیزی فایل‌های هر فاز بر اساس لایه
 - `docs/08-roadmap/phase-dependencies.md` — گراف وابستگی + قواعد هماهنگی
 - `docs/08-roadmap/agent-backlog.md` — بک‌لاگ تیکت‌های ایجنت
 
