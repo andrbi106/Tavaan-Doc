@@ -1,8 +1,8 @@
-# DOC-174-S04 — Service Provider (افزونه example-seo)
+# DOC-184-S04 — Service Provider (افزونه example-seo)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-174-S04 |
+| DOC-ID | DOC-184-S04 |
 | افزونه | `example-seo` |
 | بخش | 04 — Service Provider |
 | وضعیت | Draft v0.0.1 |

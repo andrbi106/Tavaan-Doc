@@ -1,8 +1,8 @@
-# DOC-173-S08 — پیکربندی (افزونه example-theme)
+# DOC-183-S08 — پیکربندی (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S08 |
+| DOC-ID | DOC-183-S08 |
 | افزونه | `example-theme` |
 | بخش | 08 — پیکربندی |
 | وضعیت | Draft v0.0.1 |

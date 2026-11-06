@@ -1,8 +1,8 @@
-# DOC-173-S02 — فایل manifest (plugin.json) (افزونه example-theme)
+# DOC-183-S02 — فایل manifest (plugin.json) (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S02 |
+| DOC-ID | DOC-183-S02 |
 | افزونه | `example-theme` |
 | بخش | 02 — فایل manifest (plugin.json) |
 | وضعیت | Draft v0.0.1 |

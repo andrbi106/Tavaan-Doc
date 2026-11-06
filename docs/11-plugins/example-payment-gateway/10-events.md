@@ -1,8 +1,8 @@
-# DOC-172-S10 — رویدادها (افزونه example-payment-gateway)
+# DOC-182-S10 — رویدادها (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S10 |
+| DOC-ID | DOC-182-S10 |
 | افزونه | `example-payment-gateway` |
 | بخش | 10 — رویدادها |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-171-S06 — Hookها (افزونه example-analytics)
+# DOC-181-S06 — Hookها (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S06 |
+| DOC-ID | DOC-181-S06 |
 | افزونه | `example-analytics` |
 | بخش | 06 — Hookها |
 | وضعیت | Draft v0.0.1 |

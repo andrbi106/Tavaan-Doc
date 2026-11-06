@@ -1,8 +1,8 @@
-# DOC-172-S13 — معیار پذیرش 🧪 (افزونه example-payment-gateway)
+# DOC-182-S13 — معیار پذیرش 🧪 (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S13 |
+| DOC-ID | DOC-182-S13 |
 | افزونه | `example-payment-gateway` |
 | بخش | 13 — معیار پذیرش 🧪 |
 | وضعیت | Draft v0.0.1 |

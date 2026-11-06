@@ -1,8 +1,8 @@
-# DOC-172-S08 — پیکربندی (افزونه example-payment-gateway)
+# DOC-182-S08 — پیکربندی (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S08 |
+| DOC-ID | DOC-182-S08 |
 | افزونه | `example-payment-gateway` |
 | بخش | 08 — پیکربندی |
 | وضعیت | Draft v0.0.1 |

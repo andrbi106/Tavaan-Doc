@@ -79,11 +79,11 @@
 | DOC-167 | payment | پرداخت دامنه | P0 |
 | DOC-168 | shipping | ارسال | P1 |
 | DOC-169 | tax | مالیات | P1 |
-| DOC-170 | accounting | حسابداری | P0 |
-| DOC-171 | procurement | خرید | P1 |
-| DOC-172 | sales | فروش | P0 |
-| DOC-173 | hr | منابع انسانی | P1 |
-| DOC-174 | production | تولید | P1 |
+| DOC-180 | accounting | حسابداری | P0 |
+| DOC-181 | procurement | خرید | P1 |
+| DOC-182 | sales | فروش | P0 |
+| DOC-183 | hr | منابع انسانی | P1 |
+| DOC-184 | production | تولید | P1 |
 | DOC-175 | asset | دارایی | P1 |
 | DOC-176 | form-builder | سازنده فرم | P1 |
 
@@ -117,10 +117,10 @@
 
 | DOC-ID | افزونه | نوع | فروشنده |
 |---|---|---|---|
-| DOC-171 | example-analytics | feature | tavaan.example |
-| DOC-172 | example-payment-gateway | payment | tavaan.example |
-| DOC-173 | example-theme | theme | tavaan.example |
-| DOC-174 | example-seo | feature | tavaan.example |
+| DOC-181 | example-analytics | feature | tavaan.example |
+| DOC-182 | example-payment-gateway | payment | tavaan.example |
+| DOC-183 | example-theme | theme | tavaan.example |
+| DOC-184 | example-seo | feature | tavaan.example |
 
 ### قواعد افزونه‌ها 🔒
 

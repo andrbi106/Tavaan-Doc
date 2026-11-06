@@ -1,8 +1,8 @@
-# DOC-171-S13 — معیار پذیرش 🧪 (افزونه example-analytics)
+# DOC-181-S13 — معیار پذیرش 🧪 (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S13 |
+| DOC-ID | DOC-181-S13 |
 | افزونه | `example-analytics` |
 | بخش | 13 — معیار پذیرش 🧪 |
 | وضعیت | Draft v0.0.1 |

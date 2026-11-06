@@ -1,8 +1,8 @@
-# DOC-172 — 🔌 example-payment-gateway | درگاه پرداخت نمونه
+# DOC-182 — 🔌 example-payment-gateway | درگاه پرداخت نمونه
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172 |
+| DOC-ID | DOC-182 |
 | نوع | شاخص (Index) |
 | وضعیت | Draft v0.0.1 |
 | مسیر پوشه | `docs/11-plugins/example-payment-gateway/` |

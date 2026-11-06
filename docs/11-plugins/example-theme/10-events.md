@@ -1,8 +1,8 @@
-# DOC-173-S10 — رویدادها (افزونه example-theme)
+# DOC-183-S10 — رویدادها (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S10 |
+| DOC-ID | DOC-183-S10 |
 | افزونه | `example-theme` |
 | بخش | 10 — رویدادها |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-171-S12 — تست (افزونه example-analytics)
+# DOC-181-S12 — تست (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S12 |
+| DOC-ID | DOC-181-S12 |
 | افزونه | `example-analytics` |
 | بخش | 12 — تست |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-173-S04 — Service Provider (افزونه example-theme)
+# DOC-183-S04 — Service Provider (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S04 |
+| DOC-ID | DOC-183-S04 |
 | افزونه | `example-theme` |
 | بخش | 04 — Service Provider |
 | وضعیت | Draft v0.0.1 |

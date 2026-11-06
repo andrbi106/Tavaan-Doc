@@ -1,8 +1,8 @@
-# DOC-171-S11 — نصب (افزونه example-analytics)
+# DOC-181-S11 — نصب (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S11 |
+| DOC-ID | DOC-181-S11 |
 | افزونه | `example-analytics` |
 | بخش | 11 — نصب |
 | وضعیت | Draft v0.0.1 |

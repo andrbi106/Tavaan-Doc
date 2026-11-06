@@ -44,9 +44,9 @@
 | DOC-027 | راه‌اندازی و Autoload | `docs/02-architecture/bootstrapping.md` | معماری 🔒 |
 | DOC-030 | رجیستری موتورها | `docs/03-engines/README.md` | مرجع 🔒 🧠 |
 | DOC-031..082 | مستند هر موتور | `docs/03-engines/*.md` | مشخصات 🔒 🧪 |
-| DOC-080 | ساختار پوشه/فایل | `docs/04-structure/folder-structure.md` | مرجع 🔒 |
+| DOC-083 | ساختار پوشه/فایل | `docs/04-structure/folder-structure.md` | مرجع 🔒 |
 | DOC-081 | قرارداد فایل‌ها | `docs/04-structure/file-conventions.md` | استاندارد 🔒 |
-| DOC-083 | مرجع CLI | `docs/04-structure/cli-reference.md` | مرجع 🔒 |
+| DOC-084 | مرجع CLI | `docs/04-structure/cli-reference.md` | مرجع 🔒 |
 | DOC-085 | مرجع پیکربندی | `docs/04-structure/config-reference.md` | مرجع 🔒 |
 | DOC-090 | رجیستری کیت‌ها | `docs/05-applications/README.md` | مرجع 🔒 |
 | DOC-091..098 | مستند هر کیت (۱۲ بخش) | `docs/05-applications/<name>/` | بلوپرینت 🧪 |
@@ -61,8 +61,8 @@
 | DOC-126 | قواعد نسخه‌گذاری | `docs/08-roadmap/version-progression.md` | استاندارد 🔒 |
 | DOC-160 | رجیستری ماژول‌ها | `docs/10-modules/README.md` | مرجع 🔒 🧠 |
 | DOC-161..176 | مستند هر ماژول (۱۵ بخش) | `docs/10-modules/<name>/` | مشخصات 🧪 |
-| DOC-170 | رجیستری افزونه‌ها | `docs/11-plugins/README.md` | مرجع 🔒 |
-| DOC-171..174 | مستند هر افزونه (۱۴ بخش) | `docs/11-plugins/<name>/` | مشخصات 🧪 |
+| DOC-180 | رجیستری افزونه‌ها | `docs/11-plugins/README.md` | مرجع 🔒 |
+| DOC-181..184 | مستند هر افزونه (۱۴ بخش) | `docs/11-plugins/<name>/` | مشخصات 🧪 |
 | DOC-131 | واژه‌نامه | `docs/09-references/glossary.md` | مرجع |
 | DOC-140 | شاخص ADR | `docs/adr/README.md` | تصمیم 🔒 |
 | DOC-150 | قالب مستند موتور | `docs/templates/engine-spec-template.md` | قالب |

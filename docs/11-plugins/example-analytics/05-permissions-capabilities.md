@@ -1,8 +1,8 @@
-# DOC-171-S05 — مجوزها و قابلیت‌ها (افزونه example-analytics)
+# DOC-181-S05 — مجوزها و قابلیت‌ها (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S05 |
+| DOC-ID | DOC-181-S05 |
 | افزونه | `example-analytics` |
 | بخش | 05 — مجوزها و قابلیت‌ها |
 | وضعیت | Draft v0.0.1 |

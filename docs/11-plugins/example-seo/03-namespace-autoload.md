@@ -1,8 +1,8 @@
-# DOC-174-S03 — فضای‌نام و Autoload (افزونه example-seo)
+# DOC-184-S03 — فضای‌نام و Autoload (افزونه example-seo)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-174-S03 |
+| DOC-ID | DOC-184-S03 |
 | افزونه | `example-seo` |
 | بخش | 03 — فضای‌نام و Autoload |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-171-S08 — پیکربندی (افزونه example-analytics)
+# DOC-181-S08 — پیکربندی (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S08 |
+| DOC-ID | DOC-181-S08 |
 | افزونه | `example-analytics` |
 | بخش | 08 — پیکربندی |
 | وضعیت | Draft v0.0.1 |

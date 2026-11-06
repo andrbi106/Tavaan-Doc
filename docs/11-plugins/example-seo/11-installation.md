@@ -1,8 +1,8 @@
-# DOC-174-S11 — نصب (افزونه example-seo)
+# DOC-184-S11 — نصب (افزونه example-seo)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-174-S11 |
+| DOC-ID | DOC-184-S11 |
 | افزونه | `example-seo` |
 | بخش | 11 — نصب |
 | وضعیت | Draft v0.0.1 |

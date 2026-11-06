@@ -1,8 +1,8 @@
-# DOC-172-S03 — فضای‌نام و Autoload (افزونه example-payment-gateway)
+# DOC-182-S03 — فضای‌نام و Autoload (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S03 |
+| DOC-ID | DOC-182-S03 |
 | افزونه | `example-payment-gateway` |
 | بخش | 03 — فضای‌نام و Autoload |
 | وضعیت | Draft v0.0.1 |

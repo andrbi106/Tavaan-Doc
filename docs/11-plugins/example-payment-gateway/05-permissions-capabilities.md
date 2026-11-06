@@ -1,8 +1,8 @@
-# DOC-172-S05 — مجوزها و قابلیت‌ها (افزونه example-payment-gateway)
+# DOC-182-S05 — مجوزها و قابلیت‌ها (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S05 |
+| DOC-ID | DOC-182-S05 |
 | افزونه | `example-payment-gateway` |
 | بخش | 05 — مجوزها و قابلیت‌ها |
 | وضعیت | Draft v0.0.1 |

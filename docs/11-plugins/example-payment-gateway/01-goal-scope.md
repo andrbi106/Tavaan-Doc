@@ -1,8 +1,8 @@
-# DOC-172-S01 — هدف و دامنه (افزونه example-payment-gateway)
+# DOC-182-S01 — هدف و دامنه (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S01 |
+| DOC-ID | DOC-182-S01 |
 | افزونه | `example-payment-gateway` |
 | بخش | 01 — هدف و دامنه |
 | وضعیت | Draft v0.0.1 |

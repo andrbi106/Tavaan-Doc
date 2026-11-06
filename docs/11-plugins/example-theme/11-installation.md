@@ -1,8 +1,8 @@
-# DOC-173-S11 — نصب (افزونه example-theme)
+# DOC-183-S11 — نصب (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S11 |
+| DOC-ID | DOC-183-S11 |
 | افزونه | `example-theme` |
 | بخش | 11 — نصب |
 | وضعیت | Draft v0.0.1 |

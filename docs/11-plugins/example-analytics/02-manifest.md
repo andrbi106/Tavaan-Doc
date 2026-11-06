@@ -1,8 +1,8 @@
-# DOC-171-S02 — فایل manifest (plugin.json) (افزونه example-analytics)
+# DOC-181-S02 — فایل manifest (plugin.json) (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S02 |
+| DOC-ID | DOC-181-S02 |
 | افزونه | `example-analytics` |
 | بخش | 02 — فایل manifest (plugin.json) |
 | وضعیت | Draft v0.0.1 |

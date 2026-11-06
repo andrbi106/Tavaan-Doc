@@ -1,8 +1,8 @@
-# DOC-172-S12 — تست (افزونه example-payment-gateway)
+# DOC-182-S12 — تست (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S12 |
+| DOC-ID | DOC-182-S12 |
 | افزونه | `example-payment-gateway` |
 | بخش | 12 — تست |
 | وضعیت | Draft v0.0.1 |

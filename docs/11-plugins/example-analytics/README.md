@@ -1,8 +1,8 @@
-# DOC-171 — 🔌 example-analytics | تحلیل نمونه
+# DOC-181 — 🔌 example-analytics | تحلیل نمونه
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171 |
+| DOC-ID | DOC-181 |
 | نوع | شاخص (Index) |
 | وضعیت | Draft v0.0.1 |
 | مسیر پوشه | `docs/11-plugins/example-analytics/` |

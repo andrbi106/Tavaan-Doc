@@ -1,8 +1,8 @@
-# DOC-172-S14 — بلوک ماشین‌خوان 🧠 (افزونه example-payment-gateway)
+# DOC-182-S14 — بلوک ماشین‌خوان 🧠 (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S14 |
+| DOC-ID | DOC-182-S14 |
 | افزونه | `example-payment-gateway` |
 | بخش | 14 — بلوک ماشین‌خوان 🧠 |
 | وضعیت | Draft v0.0.1 |

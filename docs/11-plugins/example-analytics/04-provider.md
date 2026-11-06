@@ -1,8 +1,8 @@
-# DOC-171-S04 — Service Provider (افزونه example-analytics)
+# DOC-181-S04 — Service Provider (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S04 |
+| DOC-ID | DOC-181-S04 |
 | افزونه | `example-analytics` |
 | بخش | 04 — Service Provider |
 | وضعیت | Draft v0.0.1 |

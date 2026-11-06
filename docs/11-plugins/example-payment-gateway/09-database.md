@@ -1,8 +1,8 @@
-# DOC-172-S09 — پایگاه داده (افزونه example-payment-gateway)
+# DOC-182-S09 — پایگاه داده (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S09 |
+| DOC-ID | DOC-182-S09 |
 | افزونه | `example-payment-gateway` |
 | بخش | 09 — پایگاه داده |
 | وضعیت | Draft v0.0.1 |

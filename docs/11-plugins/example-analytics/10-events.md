@@ -1,8 +1,8 @@
-# DOC-171-S10 — رویدادها (افزونه example-analytics)
+# DOC-181-S10 — رویدادها (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S10 |
+| DOC-ID | DOC-181-S10 |
 | افزونه | `example-analytics` |
 | بخش | 10 — رویدادها |
 | وضعیت | Draft v0.0.1 |

@@ -50,10 +50,10 @@ docs/
 │   ├── README.md                  DOC-030 — رجیستری
 │   └── <name>.md                  DOC-031..082 — هر موتور
 ├── 04-structure/                  ساختار واقعی Tavaan-Demo
-│   ├── folder-structure.md        DOC-080
-│   ├── file-conventions.md        DOC-081
-│   ├── cli-reference.md           DOC-083 — ۵ دستور واقعی
-│   └── config-reference.md        DOC-085
+│   ├── folder-structure.md        DOC-083
+│   ├── file-conventions.md        DOC-084
+│   ├── cli-reference.md           DOC-085 — ۵ دستور واقعی
+│   └── config-reference.md        DOC-086
 ├── 05-applications/               N/A v0.0.1
 ├── 06-roles-access/               N/A v0.0.1
 ├── 07-quality/

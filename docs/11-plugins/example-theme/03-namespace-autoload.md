@@ -1,8 +1,8 @@
-# DOC-173-S03 — فضای‌نام و Autoload (افزونه example-theme)
+# DOC-183-S03 — فضای‌نام و Autoload (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S03 |
+| DOC-ID | DOC-183-S03 |
 | افزونه | `example-theme` |
 | بخش | 03 — فضای‌نام و Autoload |
 | وضعیت | Draft v0.0.1 |

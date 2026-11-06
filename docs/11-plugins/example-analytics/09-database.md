@@ -1,8 +1,8 @@
-# DOC-171-S09 — پایگاه داده (افزونه example-analytics)
+# DOC-181-S09 — پایگاه داده (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S09 |
+| DOC-ID | DOC-181-S09 |
 | افزونه | `example-analytics` |
 | بخش | 09 — پایگاه داده |
 | وضعیت | Draft v0.0.1 |

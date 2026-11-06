@@ -1,8 +1,8 @@
-# DOC-172-S07 — امنیت و امضا (افزونه example-payment-gateway)
+# DOC-182-S07 — امنیت و امضا (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S07 |
+| DOC-ID | DOC-182-S07 |
 | افزونه | `example-payment-gateway` |
 | بخش | 07 — امنیت و امضا |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-172-S06 — Hookها (افزونه example-payment-gateway)
+# DOC-182-S06 — Hookها (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S06 |
+| DOC-ID | DOC-182-S06 |
 | افزونه | `example-payment-gateway` |
 | بخش | 06 — Hookها |
 | وضعیت | Draft v0.0.1 |

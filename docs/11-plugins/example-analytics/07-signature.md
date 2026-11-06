@@ -1,8 +1,8 @@
-# DOC-171-S07 — امنیت و امضا (افزونه example-analytics)
+# DOC-181-S07 — امنیت و امضا (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S07 |
+| DOC-ID | DOC-181-S07 |
 | افزونه | `example-analytics` |
 | بخش | 07 — امنیت و امضا |
 | وضعیت | Draft v0.0.1 |

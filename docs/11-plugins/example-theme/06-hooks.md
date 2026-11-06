@@ -1,8 +1,8 @@
-# DOC-173-S06 — Hookها (افزونه example-theme)
+# DOC-183-S06 — Hookها (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S06 |
+| DOC-ID | DOC-183-S06 |
 | افزونه | `example-theme` |
 | بخش | 06 — Hookها |
 | وضعیت | Draft v0.0.1 |

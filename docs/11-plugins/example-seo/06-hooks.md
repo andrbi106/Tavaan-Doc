@@ -1,8 +1,8 @@
-# DOC-174-S06 — Hookها (افزونه example-seo)
+# DOC-184-S06 — Hookها (افزونه example-seo)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-174-S06 |
+| DOC-ID | DOC-184-S06 |
 | افزونه | `example-seo` |
 | بخش | 06 — Hookها |
 | وضعیت | Draft v0.0.1 |

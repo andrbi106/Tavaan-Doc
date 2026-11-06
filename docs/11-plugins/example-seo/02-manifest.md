@@ -1,8 +1,8 @@
-# DOC-174-S02 — فایل manifest (plugin.json) (افزونه example-seo)
+# DOC-184-S02 — فایل manifest (plugin.json) (افزونه example-seo)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-174-S02 |
+| DOC-ID | DOC-184-S02 |
 | افزونه | `example-seo` |
 | بخش | 02 — فایل manifest (plugin.json) |
 | وضعیت | Draft v0.0.1 |

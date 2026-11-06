@@ -1,8 +1,8 @@
-# DOC-174 — 🔌 example-seo | سئو نمونه
+# DOC-184 — 🔌 example-seo | سئو نمونه
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-174 |
+| DOC-ID | DOC-184 |
 | نوع | شاخص (Index) |
 | وضعیت | Draft v0.0.1 |
 | مسیر پوشه | `docs/11-plugins/example-seo/` |

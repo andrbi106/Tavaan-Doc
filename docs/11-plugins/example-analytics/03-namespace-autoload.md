@@ -1,8 +1,8 @@
-# DOC-171-S03 — فضای‌نام و Autoload (افزونه example-analytics)
+# DOC-181-S03 — فضای‌نام و Autoload (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S03 |
+| DOC-ID | DOC-181-S03 |
 | افزونه | `example-analytics` |
 | بخش | 03 — فضای‌نام و Autoload |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-174-S12 — تست (افزونه example-seo)
+# DOC-184-S12 — تست (افزونه example-seo)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-174-S12 |
+| DOC-ID | DOC-184-S12 |
 | افزونه | `example-seo` |
 | بخش | 12 — تست |
 | وضعیت | Draft v0.0.1 |

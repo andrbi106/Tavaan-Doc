@@ -1,8 +1,8 @@
-# DOC-173-S12 — تست (افزونه example-theme)
+# DOC-183-S12 — تست (افزونه example-theme)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173-S12 |
+| DOC-ID | DOC-183-S12 |
 | افزونه | `example-theme` |
 | بخش | 12 — تست |
 | وضعیت | Draft v0.0.1 |

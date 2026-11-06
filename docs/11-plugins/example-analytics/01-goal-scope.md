@@ -1,8 +1,8 @@
-# DOC-171-S01 — هدف و دامنه (افزونه example-analytics)
+# DOC-181-S01 — هدف و دامنه (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S01 |
+| DOC-ID | DOC-181-S01 |
 | افزونه | `example-analytics` |
 | بخش | 01 — هدف و دامنه |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-172-S04 — Service Provider (افزونه example-payment-gateway)
+# DOC-182-S04 — Service Provider (افزونه example-payment-gateway)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-172-S04 |
+| DOC-ID | DOC-182-S04 |
 | افزونه | `example-payment-gateway` |
 | بخش | 04 — Service Provider |
 | وضعیت | Draft v0.0.1 |

@@ -1,8 +1,8 @@
-# DOC-173 — 🔌 example-theme | پوسته نمونه
+# DOC-183 — 🔌 example-theme | پوسته نمونه
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-173 |
+| DOC-ID | DOC-183 |
 | نوع | شاخص (Index) |
 | وضعیت | Draft v0.0.1 |
 | مسیر پوشه | `docs/11-plugins/example-theme/` |

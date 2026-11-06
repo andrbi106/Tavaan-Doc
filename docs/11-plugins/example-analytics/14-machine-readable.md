@@ -1,8 +1,8 @@
-# DOC-171-S14 — بلوک ماشین‌خوان 🧠 (افزونه example-analytics)
+# DOC-181-S14 — بلوک ماشین‌خوان 🧠 (افزونه example-analytics)
 
 | متادیتا | مقدار |
 |---|---|
-| DOC-ID | DOC-171-S14 |
+| DOC-ID | DOC-181-S14 |
 | افزونه | `example-analytics` |
 | بخش | 14 — بلوک ماشین‌خوان 🧠 |
 | وضعیت | Draft v0.0.1 |
