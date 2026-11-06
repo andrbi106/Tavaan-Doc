@@ -40,7 +40,7 @@ Hexagonal (شش‌ضلعی) ← آمادگی مایکروسرویس
 ## نمودار Level 2 (Container)
 
 ```
-Tavaan-Demo/
+tavaan/
 ├── bin/tvn              ← CLI Entry Point
 ├── public/index.php     ← HTTP Entry Point
 ├── core/                ← هسته (Tavaan\Core\)

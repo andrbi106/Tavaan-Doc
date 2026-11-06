@@ -23,7 +23,7 @@ if (PHP_VERSION_ID < 80200) {
 
 ### 🔒 declare(strict_types=1)
 هر فایل PHP باید با `declare(strict_types=1);` شروع شود.
-**وضعیت Tavaan-Demo:** ⚠️ ۸۳ فایل نقض دارند (بیشتر در routes/, config/).
+🔒 **الزام:** هیچ استثنایی مجاز نیست. CI باید این قانون را بررسی کند.
 
 ### 🔒 readonly classes (PHP 8.2+)
 کلاس‌های Value Object باید `readonly` باشند یا propertyهای `readonly` داشته باشند.

@@ -4,13 +4,13 @@
 |---|---|
 | DOC-ID | DOC-083 |
 | وضعیت | Approved v0.0.1 |
-| نقش | ساختار واقعی Tavaan-Demo |
+| نقش | ساختار رسمی فریمورک تَوان |
 | پیش‌نیاز | DOC-021 |
 
-## ساختار واقعی Tavaan-Demo
+## ساختار رسمی فریمورک تَوان
 
 ```
-Tavaan-Demo/
+tavaan/
 ├── bin/
 │   └── tvn                        # CLI entry point
 ├── public/
@@ -72,9 +72,9 @@ Tavaan-Demo/
 └── docs/skills/tavaan-doc-writer/ # Skill اختصاصی
 ```
 
-## تفاوت با ساختار مرجع
+## بخش‌های اختیاری (در صورت نیاز)
 
-| مورد | مرجع | Tavaan-Demo |
+| مورد | مشخصات |
 |---|---|---|
 | `modules/` | HMVC modules | ❌ موجود نیست |
 | `kits/` | Application kits | ❌ |

@@ -16,13 +16,13 @@
 
 ```bash
 # ۱) کلون
-git clone https://github.com/andrbi106/Tavaan-Demo.git
-cd Tavaan-Demo
+# پس از نصب فریمورک تَوان:
+cd tavaan-project
 
 # ۲) فایل محیطی
 cp .env.example .env
 
-# ۳) اجرای سرور توسعه
+# ۲) اجرای سرور توسعه
 php bin/tvn serve
 
 # مرورگر: http://127.0.0.1:8000
@@ -50,7 +50,7 @@ php bin/tvn serve      # سرور توسعه
 ## ساختار پروژه
 
 ```
-Tavaan-Demo/
+tavaan-project/
 ├── bin/tvn              # CLI entry point
 ├── public/index.php     # HTTP entry point
 ├── bootstrap.php        # bootstrap اپلیکیشن

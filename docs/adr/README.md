@@ -14,12 +14,12 @@
 3. هر ADR باید به اصل ارجاع دهد
 4. وضعیت: Proposed → Accepted → Deprecated/Superseded
 
-## فهرست ADRهای پیاده‌سازی‌شده در Tavaan-Demo
+## فهرست ADRهای پذیرفته‌شده
 
 | شماره | عنوان | وضعیت | فایل |
 |---|---|---|---|
-| ADR-0004 | صفر وابستگی در هسته | ✅ Accepted | `ADR-0004-zero-dependency.md` |
-| ADR-0005 | Autoloader خودنوشته | ✅ Accepted | `ADR-0005-custom-autoloader.md` |
+| ADR-0004 | صفر وابستگی در هسته | Accepted | `ADR-0004-zero-dependency.md` |
+| ADR-0005 | Autoloader خودنوشته | Accepted | `ADR-0005-custom-autoloader.md` |
 
 ## ADRهای مرجع (طراحی‌شده، هنوز پیاده‌سازی نشده)
 
