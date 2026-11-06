@@ -10,8 +10,8 @@
 ## ۱۲ اصل
 
 ### P1 — Zero Dependency 🔒
-هیچ پکیج Composer در `core/` و `engines/` ممنوع است. افزونه‌های PHP مجازند اما باید Fallback داشته باشند.
-🔒 **الزام:** هیچ `composer.json` در core/ و engines/، هیچ `use Psr\` در کد
+هیچ پکیج بیرونی در `core/` و `engines/` ممنوع است. افزونه‌های PHP مجازند اما باید Fallback داشته باشند.
+🔒 **الزام:** هیچ manifest بیرونی در core/ و engines/، هیچ `use Psr\` در کد
 
 ### P2 — Contract-First 🔒
 Interface قبل از پیاده‌سازی.

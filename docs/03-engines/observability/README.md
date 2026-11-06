@@ -21,7 +21,7 @@
 | Facade | `Metrics` → accessor `metrics` |
 | جداول DB | — |
 | LOC برآوردی | 3452 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

@@ -19,8 +19,8 @@ grep -rn "require \|require_once \|include \|include_once " --include="*.php" \
 
 ### R3 — ZeroDependency
 ```bash
-# فایل‌های composer.json (ممنوع در core/ و engines/):
-find core/ engines/ -name "composer.json"
+# فایل‌های manifest رسمی (engine.json/module.json/kit.json/plugin.json) (ممنوع در core/ و engines/):
+find core/ engines/ -name "manifest رسمی (engine.json/module.json/kit.json/plugin.json)"
 # ارجاع به PSR:
 grep -rn "use Psr\\\|extends Psr\\\\" --include="*.php" core/ engines/
 # کلید psr-4:
@@ -28,7 +28,7 @@ grep -rn '"psr-4"' --include="*.php" --include="*.json" .
 # require به vendor:
 grep -rn "require.*vendor/" --include="*.php" core/ engines/
 ```
-- ✅ هیچ composer.json در core/ یا engines/
+- ✅ هیچ manifest رسمی (engine.json/module.json/kit.json/plugin.json) در core/ یا engines/
 - ✅ هیچ `use Psr\...`
 - ✅ کلید autoload `namespace-map` (نه `psr-4`)
 - ✅ هیچ require به vendor/

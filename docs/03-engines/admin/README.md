@@ -21,7 +21,7 @@
 | Facade | `Admin` → accessor `admin` |
 | جداول DB | — |
 | LOC برآوردی | 2323 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

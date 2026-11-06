@@ -21,7 +21,7 @@
 | Facade | `Media` → accessor `media` |
 | جداول DB | — |
 | LOC برآوردی | 1219 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

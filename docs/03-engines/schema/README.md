@@ -21,7 +21,7 @@
 | Facade | `Schema` → accessor `schema` |
 | جداول DB | — |
 | LOC برآوردی | 745 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

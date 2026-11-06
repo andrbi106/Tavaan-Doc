@@ -21,7 +21,7 @@
 | Facade | `Notification` → accessor `notification` |
 | جداول DB | — |
 | LOC برآوردی | 2003 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

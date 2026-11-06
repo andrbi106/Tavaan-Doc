@@ -21,7 +21,7 @@
 | Facade | `Crypt` → accessor `encrypter` |
 | جداول DB | — |
 | LOC برآوردی | 905 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

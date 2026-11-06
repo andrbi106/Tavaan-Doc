@@ -21,7 +21,7 @@
 | Facade | `Tenant` → accessor `tenant` |
 | جداول DB | — |
 | LOC برآوردی | 3117 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

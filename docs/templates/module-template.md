@@ -14,7 +14,7 @@
 ```
 modules/<kebab-name>/
 ├── module.json                       ← Manifest (بخش ۲)
-├── composer.json                     ← اختیاری (فقط انتشار)
+├── module.json                       ← manifest رسمی ماژول
 ├── README.md                         ← راهنمای کوتاه
 ├── src/
 │   ├── Contracts/                    ← 🔓 تنها سطح عمومی

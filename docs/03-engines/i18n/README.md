@@ -21,7 +21,7 @@
 | Facade | `Lang` → accessor `translator` |
 | جداول DB | — |
 | LOC برآوردی | 1227 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

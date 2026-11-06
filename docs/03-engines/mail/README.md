@@ -21,7 +21,7 @@
 | Facade | `Mail` → accessor `mailer` |
 | جداول DB | — |
 | LOC برآوردی | 1716 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

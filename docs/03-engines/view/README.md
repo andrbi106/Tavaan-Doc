@@ -21,7 +21,7 @@
 | Facade | `View` → accessor `view` |
 | جداول DB | — |
 | LOC برآوردی | 897 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

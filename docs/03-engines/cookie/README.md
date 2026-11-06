@@ -21,7 +21,7 @@
 | Facade | `Cookie` → accessor `cookie` |
 | جداول DB | — |
 | LOC برآوردی | 217 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

@@ -21,7 +21,7 @@
 | Facade | `Auth` → accessor `auth` |
 | جداول DB | `password_resets`, `personal_access_tokens`, `user_devices`, `two_factor_secrets` |
 | LOC برآوردی | 2430 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

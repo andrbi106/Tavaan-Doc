@@ -21,7 +21,7 @@
 | Facade | `Audit` → accessor `audit` |
 | جداول DB | `tvn_audit_logs` |
 | LOC برآوردی | 908 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

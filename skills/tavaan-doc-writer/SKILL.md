@@ -17,8 +17,8 @@ description: >-
 
 ## نقش این skill
 
-این skill حاصلِ مطالعهٔ کامل مخزن مرجع `Derogaramin/Tavaan-Doc` و بازنویسی بر اساس پروژهٔ واقعی `Tavaan-Demo` است.
-هدف: توانایی بازتولید مستندات تَوان با حفظ کنوانسیون‌ها، و ممیزی پروژه‌های تَوان برای انطباق.
+این skill ابزار رسمی ممیزی و مستندنویسی فریمورک تَوان است.
+هدف: توانایی بازتولید مستندات تَوان با حفظ کنوانسیون‌ها، و ممیزی پیاده‌سازی‌ها برای انطباق با مشخصات رسمی.
 
 ## هویت تَوان
 
@@ -64,7 +64,7 @@ skills/tavaan-doc-writer/      این skill
 
 ## لایه‌بندی موتورها (L0-L6)
 
-بر اساس `DEPENDENCIES.md` در مخزن Tavaan-Demo، موتورها در ۷ لایه چیده شده‌اند:
+بر اساس لایه‌بندی رسمی فریمورک، موتورها در ۷ لایه چیده شده‌اند:
 
 | لایه | موتورها | تعداد |
 |---|---|---|
@@ -375,14 +375,14 @@ docs/11-plugins/<name>/
 
 قواعد ADR: شماره ترتیبی هرگز تغییر نمی‌کند؛ ADR پذیرفته‌شده تغییر نمی‌کند؛ هر ADR باید به اصل ارجاع دهد.
 
-### ADRهای پیاده‌سازی‌شده در Tavaan-Demo
+### ADRهای پذیرفته‌شده
 | شماره | عنوان | وضعیت |
 |---|---|---|
 | ADR-0004 | صفر وابستگی در هسته | ✅ Accepted |
 | ADR-0005 | Autoloader خودنوشته | ✅ Accepted |
 
 ### ADRهای مرجع (طراحی‌شده)
-ADR-0001 تا ADR-0016 (در مخزن مرجع Derogaramin/Tavaan-Doc).
+ADR-0001 تا ADR-0016 (مشخصات رسمی فریمورک).
 
 ---
 
@@ -392,7 +392,7 @@ ADR-0001 تا ADR-0016 (در مخزن مرجع Derogaramin/Tavaan-Doc).
 
 ### مرحلهٔ ۱: بررسی قوانین سخت (R1-R10)
 - R1: `grep -rL "declare(strict_types=1)" --include="*.php"` → فایل‌های بدون strict_types
-- R3: `find . -name composer.json` در core/engines + `grep -r "use Psr\\\\"` + `grep '"psr-4"'`
+- R3: `find . -name manifest رسمی (engine.json/module.json/kit.json/plugin.json)` در core/engines + `grep -r "use Psr\\\\"` + `grep '"psr-4"'`
 - R8: `grep -rn "throw new \\\\Exception\|throw new \\\\RuntimeException"` → استثنای خام
 
 ### مرحلهٔ ۲: بررسی لایه‌بندی
@@ -469,7 +469,7 @@ ADR-0001 تا ADR-0016 (در مخزن مرجع Derogaramin/Tavaan-Doc).
 ## خطاهای رایج که باید از آن‌ها پرهیز کنی
 
 - ❌ استفاده از `psr-4` به‌عنوان کلید autoload (تَوان از `namespace-map` استفاده می‌کند)
-- ❌ وجود `composer.json` در core/ یا engines/ (نقض ZeroDependency)
+- ❌ وجود `manifest رسمی (engine.json/module.json/kit.json/plugin.json)` در core/ یا engines/ (نقض ZeroDependency)
 - ❌ `use Psr\...` در کد (نقض ZeroDependency)
 - ❌ نثر انگلیسی برای توضیحات (تَوان فارسی‌اول است)
 - ❌ حذف بخشی از قالب بدون `N/A: <دلیل>`

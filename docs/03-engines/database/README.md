@@ -21,7 +21,7 @@
 | Facade | `DB` → accessor `db` |
 | جداول DB | — |
 | LOC برآوردی | 11329 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

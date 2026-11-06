@@ -1,18 +1,24 @@
-# تَوان | Tavaan — مستندات (Tavaan-Doc)
+# تَوان | Tavaan — مستندات رسمی (Tavaan-Doc)
 
-> مخزن مستندات رسمی فریمورک تَوان (Tavaan) — مشخصات کامل معماری، استانداردها و راهنمای پیاده‌سازی.
+> **منبع، مرجع و مستندات رسمی فریمورک تَوان (Tavaan)** — مشخصات کامل معماری، استانداردها و راهنمای پیاده‌سازی.
 
-این مخزن **مشخصات رسمی فریمورک تَوان** است — مستقل از هر پیاده‌سازی خاص. هر پیاده‌سازی (از جمله Tavaan-Demo) باید این مشخصات را دنبال کند.
+این مخزن **منبع رسمی فریمورک تَوان** است. هر پیاده‌سازی باید این مشخصات را دنبال کند.
 
 ---
 
-## تفاوت با مخزن مرجع
+## هویت فریمورک
 
-| ویژگی | مرجع (Derogaramin/Tavaan-Doc) | این مخزن (andrbi106/Tavaan-Doc) |
-|---|---|---|
-| رویکرد | مشخصات رسمی و مستقل فریمورک |
+| ویژگی | مقدار |
+|---|---|
+| نام | تَوان / Tavaan |
+| پروفایل رسمی | [TavaanOfficial](https://github.com/TavaanOfficial) |
+| مخزن مستندات | [TavaanOfficial/Tavaan-Doc](https://github.com/TavaanOfficial/Tavaan-Doc) |
+| شعار | صفر وابستگی، بی‌نهایت امکان / Zero Dependency. Infinite Capability. |
+| نسخهٔ مشخصات | v1.0.0 |
+| حداقل PHP | 8.2.0 |
+| سیاست وابستگی | صفر وابستگی بیرونی (Zero External Dependency) |
+| معماری‌ها | layered, hmvc, modular-monolith, event-driven, hexagonal |
 | تعداد موتورها | ۵۲ (مشخصات رسمی) |
-| وضعیت | مشخصات رسمی v1.0 |
 | ADRها | ۱۶ (ADR-0001 تا ADR-0016) |
 | CLI | ۱۰۵ دستور (مشخصات کامل) |
 | Config | ۴۸ فایل پیکربندی + ۱۱۱ کلید ENV |
@@ -84,7 +90,7 @@ tools/scripts/
 ## شروع سریع
 
 ```bash
-git clone https://github.com/andrbi106/Tavaan-Doc.git
+git clone https://github.com/TavaanOfficial/Tavaan-Doc.git
 cd Tavaan-Doc
 
 # مطالعهٔ ترتیب اجباری:
@@ -120,22 +126,22 @@ R10 قبل از Merge: php -l + PHPStan + تست‌ها + Benchmark.
 هر لایه با نسخه همسو است: L0→0.0.x, L1→0.1.x, ..., Release→1.0.0.
 قواعد نسخه‌گذاری در `docs/08-roadmap/version-progression.md`.
 
-| فاز | لایه | نسخه | موتورها | وضعیت |
+| فاز | لایه | نسخه | موتورها | وضعیت مشخصات |
 |---|---|---|---|---|
-| **M0** | — | 0.0.0 | مستندات | ✅ |
-| **M1-M2** | L0 | 0.0.1-0.0.2 | container, compat, test | ✅ |
-| **M3** | L1 | 0.1.1 | config, pipeline | ✅ |
-| **M4-M10** | L2 | 0.2.1-0.2.7 | event, crypt, hash, filesystem, i18n, log, cache, console, module, ... | ✅ |
-| **M11-M17** | L3 | 0.3.1-0.3.7 | database, error, http, view, validation, jalali, queue, mail, ... | ⚠️ اسکلت |
-| **M18-M25** | L4 | 0.4.1-0.4.8 | orm, schema, migration, cookie, cors, session, router, ... | ⚠️ اسکلت |
-| **M26-M29** | L5 | 0.5.1-0.5.4 | auth, rbac, security, realtime | ⚠️ اسکلت |
-| **M30-M32** | L6 | 0.6.1-0.6.3 | api, workflow, admin | ⚠️ اسکلت |
-| **M33-M35** | App | 0.7.1-0.7.3 | Blog, News-Portal, Forum | ⬜ |
-| **M36-M38** | App | 0.8.1-0.8.3 | Shop (۲ فاز), LMS | ⬜ |
-| **M39-M43** | App | 0.9.1-0.9.5 | CRM, ERP (۲ فاز), BPMS (۲ فاز) | ⬜ |
-| **M44** | Release | 1.0.0 | انتشار فریمورک | ⬜ |
+| **M0** | — | 0.0.0 | مستندات | ✅ کامل |
+| **M1-M2** | L0 | 0.0.1-0.0.2 | container, compat, test | ✅ کامل |
+| **M3** | L1 | 0.1.1 | config, pipeline | ✅ کامل |
+| **M4-M10** | L2 | 0.2.1-0.2.7 | event, crypt, hash, filesystem, i18n, log, cache, console, module, ... | ✅ کامل |
+| **M11-M17** | L3 | 0.3.1-0.3.7 | database, error, http, view, validation, jalali, queue, mail, ... | ✅ کامل |
+| **M18-M25** | L4 | 0.4.1-0.4.8 | orm, schema, migration, cookie, cors, session, router, ... | ✅ کامل |
+| **M26-M29** | L5 | 0.5.1-0.5.4 | auth, rbac, security, realtime | ✅ کامل |
+| **M30-M32** | L6 | 0.6.1-0.6.3 | api, workflow, admin | ✅ کامل |
+| **M33-M35** | App | 0.7.1-0.7.3 | Blog, News-Portal, Forum | 📋 برنامه‌ریزی‌شده |
+| **M36-M38** | App | 0.8.1-0.8.3 | Shop (۲ فاز), LMS | 📋 برنامه‌ریزی‌شده |
+| **M39-M43** | App | 0.9.1-0.9.5 | CRM, ERP (۲ فاز), BPMS (۲ فاز) | 📋 برنامه‌ریزی‌شده |
+| **M44** | Release | 1.0.0 | انتشار فریمورک | 📋 هدف نهایی |
 
-**نسخهٔ مشخصات:** v1.0.0 (مشخصات کامل فریمورک)
+**نسخهٔ مشخصات:** v1.0.0 (مشخصات کامل فریمورک — پیاده‌سازی توسط جامعه)
 
 **مستندات مرتبط:**
 - `docs/08-roadmap/version-progression.md` — قواعد نسخه‌گذاری و همسویی با لایه‌ها

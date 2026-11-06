@@ -14,7 +14,7 @@
 
 | منبع | الهام‌گرفته شد |
 |---|---|
-| WordPress Plugin System + Composer Plugins | طراحی API و الگوهای Service Provider/Facade |
+| WordPress Plugin System + ابزار مدیریت بسته بیرونی Plugins | طراحی API و الگوهای Service Provider/Facade |
 
 ---
 

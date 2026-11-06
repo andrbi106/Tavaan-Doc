@@ -21,7 +21,7 @@
 | Facade | `Session` → accessor `session` |
 | جداول DB | `sessions` |
 | LOC برآوردی | 968 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

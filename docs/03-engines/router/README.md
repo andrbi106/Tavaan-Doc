@@ -21,7 +21,7 @@
 | Facade | `Route` → accessor `router` |
 | جداول DB | — |
 | LOC برآوردی | 572 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

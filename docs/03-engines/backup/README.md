@@ -21,7 +21,7 @@
 | Facade | `Backup` → accessor `backup` |
 | جداول DB | — |
 | LOC برآوردی | 1388 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

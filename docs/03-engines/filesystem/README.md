@@ -21,7 +21,7 @@
 | Facade | `Storage` → accessor `filesystem` |
 | جداول DB | — |
 | LOC برآوردی | 2248 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

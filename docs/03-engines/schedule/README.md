@@ -21,7 +21,7 @@
 | Facade | `Schedule` → accessor `schedule` |
 | جداول DB | — |
 | LOC برآوردی | 960 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

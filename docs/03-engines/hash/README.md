@@ -21,7 +21,7 @@
 | Facade | `Hash` → accessor `hash` |
 | جداول DB | — |
 | LOC برآوردی | 355 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

@@ -21,7 +21,7 @@
 | Facade | — (بدون Facade) |
 | جداول DB | `tvn_migrations` |
 | LOC برآوردی | 445 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

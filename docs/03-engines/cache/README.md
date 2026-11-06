@@ -21,7 +21,7 @@
 | Facade | `Cache` → accessor `cache` |
 | جداول DB | — |
 | LOC برآوردی | 1608 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

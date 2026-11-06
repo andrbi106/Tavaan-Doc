@@ -21,7 +21,7 @@
 | Facade | `Gate` → accessor `gate` |
 | جداول DB | `tvn_permissions`, `tvn_roles`, `tvn_role_user`, `tvn_permission_role`, `tvn_delegations` |
 | LOC برآوردی | 1242 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

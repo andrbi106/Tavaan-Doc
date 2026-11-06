@@ -21,7 +21,7 @@
 | Facade | `Report` → accessor `report` |
 | جداول DB | — |
 | LOC برآوردی | 2121 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

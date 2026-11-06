@@ -21,7 +21,7 @@
 | Facade | `Security` → accessor `security` |
 | جداول DB | — |
 | LOC برآوردی | 1054 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

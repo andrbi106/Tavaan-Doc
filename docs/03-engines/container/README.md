@@ -21,7 +21,7 @@
 | Facade | `App` → accessor `app` |
 | جداول DB | — |
 | LOC برآوردی | 1577 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

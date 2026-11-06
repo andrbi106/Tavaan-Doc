@@ -34,5 +34,5 @@
 | تعداد موتورها | ۵۲ | ✅ ۵۲ |
 | اجرای CLI | موفق | ✅ info/version/engines/config/serve |
 | اجرای HTTP | موفق | ✅ //api/engines/info |
-| ZeroDependency | کامل | ✅ هیچ composer.json، هیچ PSR |
+| ZeroDependency | کامل | ✅ هیچ پکیج بیرونی، هیچ PSR |
 | خطاهای نحوی | ۰ | ✅ ۰ در ۱۴۶۵ فایل |

@@ -1,4 +1,4 @@
-# ADR-0005 — Autoloader خودنوشته
+# ADR-0005 — Autoloader خودنوشته (بدون وابستگی بیرونی)
 
 | متادیتا | مقدار |
 |---|---|
@@ -9,7 +9,7 @@
 | مرتبط | ADR-0004، DOC-027 |
 
 ## ۱. زمینه
-Composer autoloader به `vendor/autoload.php` وابسته است. تَوان ZeroDependency است.
+autoloader بیرونی به `vendor/autoload.php` وابسته است. تَوان ZeroDependency است.
 
 ## ۲. تصمیم
 `Tavaan\Core\Autoloading\Autoloader` با ویژگی‌های:
@@ -22,7 +22,7 @@ Composer autoloader به `vendor/autoload.php` وابسته است. تَوان Z
 ## ۳. گزینه‌ها
 | گزینه | مزیت | عیب |
 |---|---|---|
-| Composer autoloader | استاندارد | نیاز به vendor |
+| autoloader بیرونی | استاندارد | نیاز به vendor |
 | **Autoloader خودنوشته (انتخابی)** | صفر‌وابستگی | نگهداری |
 
 ## ۴. دلایل

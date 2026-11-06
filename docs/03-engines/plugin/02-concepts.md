@@ -18,7 +18,7 @@
 | Service Provider | کلاس ثبت سرویس‌ها در Container و publish config/lang |
 | Facade | accessor استاتیک برای دسترسی به سرویس موتور از Container |
 | Namespace | پیشوند PSR-4 مخصوص موتور (مثلاً `Tavaan\Engine\Plugin\`) |
-| ZeroDependency | بدون نیاز به ext-* خارجی یا composer package سنگین |
+| ZeroDependency | بدون نیاز به پکیج بیرونی سنگین |
 
 ---
 

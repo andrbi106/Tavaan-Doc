@@ -101,7 +101,7 @@ jobs:
           php-version: ${{ matrix.php }}
           extensions: pdo, pdo_mysql, pdo_pgsql, pdo_sqlite, mbstring, openssl, gd, redis
           coverage: pcov
-          tools: composer
+          tools: tavaan
 
       # ۱) Syntax
       - name: Lint PHP
@@ -190,8 +190,8 @@ if grep -RnhoE "^use [A-Za-z0-9_\\\\]+;" core engines \
     echo "⚠️  use از namespace خارجی (بررسی شود)"; 
 fi
 
-# بررسی composer.json با require پکیج
-for f in $(find core engines -name composer.json); do
+# بررسی manifest بیرونی با require پکیج
+for f in $(find core engines -name "*.json" -path "*/vendor/*"); do
     if grep -qE '"require"[[:space:]]*:[[:space:]]*\{[^}]*"[a-z]' "$f"; then
         echo "❌ $f دارای require پکیج است"; violations=1
     fi

@@ -21,7 +21,7 @@
 | Facade | `Config` → accessor `config` |
 | جداول DB | — |
 | LOC برآوردی | 1314 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

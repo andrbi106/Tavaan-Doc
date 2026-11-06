@@ -1,4 +1,4 @@
-# ADR-0004 — صفر وابستگی در هسته (Zero Dependency)
+# ADR-0004 — صفر وابستگی بیرونی در هسته (Zero Dependency)
 
 | متادیتا | مقدار |
 |---|---|
@@ -16,18 +16,18 @@
 - CVEهای پکیج‌های ثالث
 
 ## ۲. تصمیم
-هسته (`core/`) و موتورها (`engines/`) **هیچ پکیج Composer را require نمی‌کنند**.
+هسته (`core/`) و موتورها (`engines/`) **هیچ پکیج بیرونی را require نمی‌کنند**.
 همهٔ قابلیت‌ها خودنوشته است.
 
 تنها استثنا:
 - افزونه‌های PHP (ext-*) با Fallback
 - پلاگین‌های ثالث در `plugins/` (معاف)
-- ابزارهای dev در `require-dev`
+- ابزارهای dev در `dev-dependencies`
 
 ## ۳. گزینه‌ها
 | گزینه | مزایا | معایب |
 |---|---|---|
-| وابستگی به Composer | توسعهٔ سریع | Supply chain، سنگینی |
+| وابستگی بیرونی | توسعهٔ سریع | Supply chain، سنگینی |
 | **صفر وابستگی (انتخابی)** | کنترل، امن، آفلاین | کار بیشتر |
 | وابستگی حداقلی | تعادل | مرز مبهم |
 
@@ -51,12 +51,12 @@
 - باگ در پیاده‌سازی خودنوشته → mitigation: Test Vectors
 
 ## ۶. انطباق
-- هیچ `composer.json` در `core/` و `engines/`
+- هیچ manifest بیرونی در `core/` و `engines/`
 - هیچ `use Psr\...` در کد
 - کلید autoload `namespace-map` (نه `psr-4`)
 
 ## ۷. اعتبارسنجی 🧪
 - ✅ پروژه بدون `vendor/` بوت می‌شود
-- ✅ `find . -name composer.json` در core/engines خالی است
+- ✅ `find . -name manifest رسمی (engine.json/module.json/kit.json/plugin.json)` خالی است (هیچ فایل manifest بیرونی وجود ندارد)
 - ✅ `grep -r "use Psr\\\\" core/ engines/` خالی است
 - ✅ اجرای موفق CLI و HTTP

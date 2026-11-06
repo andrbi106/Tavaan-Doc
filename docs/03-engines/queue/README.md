@@ -21,7 +21,7 @@
 | Facade | `Queue` → accessor `queue` |
 | جداول DB | `tvn_jobs`, `tvn_failed_jobs`, `tvn_job_batches` |
 | LOC برآوردی | 4555 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

@@ -21,7 +21,7 @@
 | Facade | `Plugin` → accessor `plugins` |
 | جداول DB | — |
 | LOC برآوردی | 1838 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

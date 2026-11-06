@@ -21,7 +21,7 @@
 | Facade | `Feature` → accessor `feature` |
 | جداول DB | — |
 | LOC برآوردی | 499 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

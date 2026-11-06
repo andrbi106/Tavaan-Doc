@@ -21,7 +21,7 @@
 | Facade | `Payment` → accessor `payment` |
 | جداول DB | `tvn_payment_transactions` |
 | LOC برآوردی | 2597 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

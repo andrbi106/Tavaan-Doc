@@ -21,7 +21,7 @@
 | Facade | — (بدون Facade) |
 | جداول DB | — |
 | LOC برآوردی | 213 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

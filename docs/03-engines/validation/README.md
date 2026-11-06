@@ -21,7 +21,7 @@
 | Facade | `Validator` → accessor `validator` |
 | جداول DB | — |
 | LOC برآوردی | 2975 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

@@ -21,7 +21,7 @@
 | Facade | `Http` → accessor `http` |
 | جداول DB | — |
 | LOC برآوردی | 1807 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---

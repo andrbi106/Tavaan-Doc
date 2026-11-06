@@ -21,7 +21,7 @@
 | Facade | `Workflow` → accessor `workflow` |
 | جداول DB | `tvn_workflows`, `tvn_process_instances`, `tvn_process_tasks`, `tvn_process_history` |
 | LOC برآوردی | 2688 |
-| مسئول | @andrbi106 |
+| مسئول | @TavaanOfficial |
 | مرتبط | DOC-030 |
 
 ---
