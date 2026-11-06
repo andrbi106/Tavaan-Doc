@@ -48,6 +48,8 @@
 | DOC-081 | قرارداد فایل‌ها | `docs/04-structure/file-conventions.md` | استاندارد 🔒 |
 | DOC-083 | مرجع CLI | `docs/04-structure/cli-reference.md` | مرجع 🔒 |
 | DOC-085 | مرجع پیکربندی | `docs/04-structure/config-reference.md` | مرجع 🔒 |
+| DOC-090 | رجیستری کیت‌ها | `docs/05-applications/README.md` | مرجع 🔒 |
+| DOC-091..098 | مستند هر کیت (۱۲ بخش) | `docs/05-applications/<name>/` | بلوپرینت 🧪 |
 | DOC-110 | استراتژی تست | `docs/07-quality/testing-strategy.md` | استاندارد 🔒 |
 | DOC-113 | تعریف انجام‌شده | `docs/07-quality/definition-of-done.md` | استاندارد 🔒 |
 | DOC-120 | نقشهٔ راه (۴۵ فاز، M0-M44) | `docs/08-roadmap/milestones.md` | برنامه |
@@ -57,6 +59,10 @@
 | DOC-124 | خلاصهٔ فازهای بنیاد | `docs/08-roadmap/foundation-phases.md` | مرجع |
 | DOC-125 | خلاصهٔ فازهای اجرایی | `docs/08-roadmap/execution-phases.md` | مرجع |
 | DOC-126 | قواعد نسخه‌گذاری | `docs/08-roadmap/version-progression.md` | استاندارد 🔒 |
+| DOC-160 | رجیستری ماژول‌ها | `docs/10-modules/README.md` | مرجع 🔒 🧠 |
+| DOC-161..176 | مستند هر ماژول (۱۵ بخش) | `docs/10-modules/<name>/` | مشخصات 🧪 |
+| DOC-170 | رجیستری افزونه‌ها | `docs/11-plugins/README.md` | مرجع 🔒 |
+| DOC-171..174 | مستند هر افزونه (۱۴ بخش) | `docs/11-plugins/<name>/` | مشخصات 🧪 |
 | DOC-131 | واژه‌نامه | `docs/09-references/glossary.md` | مرجع |
 | DOC-140 | شاخص ADR | `docs/adr/README.md` | تصمیم 🔒 |
 | DOC-150 | قالب مستند موتور | `docs/templates/engine-spec-template.md` | قالب |

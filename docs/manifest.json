@@ -10,9 +10,15 @@
   },
   "generated_note": "فهرست ماشین‌خوان مستندات Tavaan-Doc — بازنویسی بر اساس Tavaan-Demo واقعی",
   "totals": {
-    "documents": 908,
+    "documents": 1331,
     "engines": 52,
     "engine_audit_files": 936,
+    "kits": 8,
+    "kit_audit_files": 104,
+    "modules": 16,
+    "module_audit_files": 256,
+    "plugins": 4,
+    "plugin_audit_files": 60,
     "schemas": 1,
     "adrs": 2
   },
@@ -21,6 +27,9 @@
     "readme": "README.md",
     "quickstart": "docs/00-overview/quickstart.md",
     "engine_registry": "docs/03-engines/README.md",
+    "kit_registry": "docs/05-applications/README.md",
+    "module_registry": "docs/10-modules/README.md",
+    "plugin_registry": "docs/11-plugins/README.md",
     "adr_index": "docs/adr/README.md",
     "audit_report": "docs/07-quality/audit-report.md"
   },
