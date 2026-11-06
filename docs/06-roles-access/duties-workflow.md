@@ -55,7 +55,7 @@ final readonly class Duty
 | تأیید تخفیف‌های بزرگ | `shop.discount.manage` | — | ✅ (four-eyes) |
 | استرداد سفارش | `shop.order.refund` | ۲۴ ساعت | ✅ (مالی) |
 | بررسی گزارش فروش | `shop.report.sales` | هفتگی | ❌ |
-| مدیریت نقش اپراتورها | `system.roles.assign` | — | ✅ |
+| مدیریت نقش اپراتورها | `system.roles.assign` | — | 📋 |
 | رسیدگی به شکایات | `shop.order.update` | ۴۸ ساعت | ❌ |
 
 ### ۳٫۳ inventory-keeper (انباردار)

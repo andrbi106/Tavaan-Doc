@@ -40,8 +40,8 @@ engine:
 ## وضعیت ممیزی
 | شاخص | وضعیت |
 |---|---|
-| بلوک YAML موجود؟ | ✅ |
-| id معتبر؟ | ✅ |
-| namespace صحیح؟ | ✅ |
-| depends_on فهرست شده؟ | ✅ |
-| acceptance با AC-؟ | ✅ |
+| بلوک YAML موجود؟ | 📋 |
+| id معتبر؟ | 📋 |
+| namespace صحیح؟ | 📋 |
+| depends_on فهرست شده؟ | 📋 |
+| acceptance با AC-؟ | 📋 |

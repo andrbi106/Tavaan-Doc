@@ -28,6 +28,16 @@
 | DOC-002 | اصول بنیادین | `docs/00-overview/principles.md` | تحلیلی |
 | DOC-003 | الزامات | `docs/00-overview/requirements.md` | تحلیلی 🧪 |
 | DOC-004 | شروع سریع | `docs/00-overview/quickstart.md` | راهنما 🧠 |
+| — | بخش آموزش | `docs/00-learn/README.md` | فهرست 📚 |
+| DOC-005 | پیش‌گفتار کتاب | `docs/00-learn/preface.md` | روایت 📚 |
+| DOC-006 | راهنمای مبتدیان | `docs/00-learn/for-beginners.md` | آموزش 🧒 |
+| DOC-007 | واژه‌نامه ساده | `docs/00-learn/glossary-simple.md` | مرجع 📖 |
+| DOC-008 | نگاشت کتاب | `docs/00-learn/chapter-map.md` | برنامه 📚 |
+| DOC-009 | راهنمای ایجنت | `docs/00-learn/for-agents.md` | راهنما 🤖 🧠 |
+| — | مثال‌های آموزشی | `docs/examples/README.md` | آموزش 📚 |
+| — | Hello World | `docs/examples/hello-world.md` | آموزش ⭐ |
+| — | اولین موتور | `docs/examples/first-engine.md` | آموزش ⭐⭐ |
+| — | اولین ماژول | `docs/examples/first-module.md` | آموزش ⭐⭐ |
 | DOC-010 | قواعد PHP 8.2+ | `docs/01-standards/php82-strict.md` | استاندارد 🔒 |
 | DOC-011 | سبک کد | `docs/01-standards/coding-style.md` | استاندارد 🔒 |
 | DOC-012 | نام‌گذاری | `docs/01-standards/naming-conventions.md` | استاندارد 🔒 |

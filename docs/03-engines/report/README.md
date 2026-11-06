@@ -33,23 +33,23 @@
 
 | شناسه | فایل | بخش | ممیزی |
 |---|---|---|---|
-| [DOC-069-S01](./01-goal-scope.md) | هدف و دامنه | ✅ |
-| [DOC-069-S02](./02-concepts.md) | مفاهیم و واژگان | ✅ |
-| [DOC-069-S03](./03-architecture.md) | معماری داخلی | ✅ |
-| [DOC-069-S04](./04-public-api.md) | API عمومی | ✅ |
-| [DOC-069-S05](./05-algorithms.md) | الگوریتم‌ها و ساختار داده | ✅ |
-| [DOC-069-S06](./06-config.md) | پیکربندی | ✅ |
-| [DOC-069-S07](./07-contracts.md) | قراردادها (Contracts) | ✅ |
-| [DOC-069-S08](./08-extensibility.md) | نقاط توسعه | ✅ |
-| [DOC-069-S09](./09-security.md) | امنیت | ✅ |
-| [DOC-069-S10](./10-performance.md) | کارایی | ✅ |
-| [DOC-069-S11](./11-error-handling.md) | مدیریت خطا | ✅ |
-| [DOC-069-S12](./12-testing.md) | تست | ✅ |
-| [DOC-069-S13](./13-example.md) | مثال End-to-End | ✅ |
-| [DOC-069-S14](./14-acceptance.md) | معیار پذیرش 🧪 | ✅ |
-| [DOC-069-S15](./15-limitations.md) | محدودیت‌ها و کارهای آینده | ✅ |
-| [DOC-069-S16](./16-references.md) | مراجع | ✅ |
-| [DOC-069-S17](./17-machine-readable.yml) | بلوک ماشین‌خوان 🧠 | ✅ |
+| [DOC-069-S01](./01-goal-scope.md) | هدف و دامنه | 📋 |
+| [DOC-069-S02](./02-concepts.md) | مفاهیم و واژگان | 📋 |
+| [DOC-069-S03](./03-architecture.md) | معماری داخلی | 📋 |
+| [DOC-069-S04](./04-public-api.md) | API عمومی | 📋 |
+| [DOC-069-S05](./05-algorithms.md) | الگوریتم‌ها و ساختار داده | 📋 |
+| [DOC-069-S06](./06-config.md) | پیکربندی | 📋 |
+| [DOC-069-S07](./07-contracts.md) | قراردادها (Contracts) | 📋 |
+| [DOC-069-S08](./08-extensibility.md) | نقاط توسعه | 📋 |
+| [DOC-069-S09](./09-security.md) | امنیت | 📋 |
+| [DOC-069-S10](./10-performance.md) | کارایی | 📋 |
+| [DOC-069-S11](./11-error-handling.md) | مدیریت خطا | 📋 |
+| [DOC-069-S12](./12-testing.md) | تست | 📋 |
+| [DOC-069-S13](./13-example.md) | مثال End-to-End | 📋 |
+| [DOC-069-S14](./14-acceptance.md) | معیار پذیرش 🧪 | 📋 |
+| [DOC-069-S15](./15-limitations.md) | محدودیت‌ها و کارهای آینده | 📋 |
+| [DOC-069-S16](./16-references.md) | مراجع | 📋 |
+| [DOC-069-S17](./17-machine-readable.yml) | بلوک ماشین‌خوان 🧠 | 📋 |
 
 
 ## روش استفاده
